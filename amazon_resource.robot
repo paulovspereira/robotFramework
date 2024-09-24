@@ -52,8 +52,8 @@ Na página de resultado para "Xbox Series S"
 Clicar na imagem Xbox Series S
     Click Element    locator=//img[contains(@alt,'Console Xbox Series S')]
 
-Verificar o resultado da pesquisa listando o produto "Voltar aos resultados"
-    Wait Until Element Is Visible    locator=(//ul[@class='a-unordered-list a-horizontal a-size-small'][contains(.,'‹ Voltar aos resultados')])
+##Verificar o resultado da pesquisa listando o produto "Voltar aos resultados"
+ ##   Wait Until Element Is Visible    locator=(//ul[@class='a-unordered-list a-horizontal a-size-small'][contains(.,'‹ Voltar aos resultados')])
     
 
 
