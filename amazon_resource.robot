@@ -9,6 +9,7 @@ ${MENU_ELETRONICOS}    //a[@href='/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=1620
 ${HEAER_ELETTRONICOS}    //h1[contains(.,'Eletrônicos e Tecnologia')]  
 ${TEXTO_HEADER_ELETRONICOS}    Eletrônicos e Tecnologia
 
+
 *** Keywords ***
 Abri o navegador
     Open Browser    browser=chrome
@@ -44,6 +45,16 @@ Clicar no botão de pesquisa
 
 Verificar o resultado da pesquisa listando o produto "${PRODUTO}"
     Wait Until Element Is Visible    locator=(//span[contains(.,'${PRODUTO}')])[3]
+
+Na página de resultado para "Xbox Series S"
+    Wait Until Element Is Visible    locator=(//span[@class='a-color-state a-text-bold'][contains(.,'"Xbox Series S"')])
+
+Clicar na imagem Xbox Series S
+    Click Element    locator=//img[contains(@alt,'Console Xbox Series S')]
+
+Verificar o resultado da pesquisa listando o produto "Voltar aos resultados"
+    Wait Until Element Is Visible    locator=(//ul[@class='a-unordered-list a-horizontal a-size-small'][contains(.,'‹ Voltar aos resultados')])
+    
 
 
 

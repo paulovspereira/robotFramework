@@ -25,3 +25,17 @@ Caso de Teste 02 - Pesquisa de um Produto
     Digitar o nome de produto "Xbox Series S" no campo de p
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa listando o produto "Xbox Series S"
+
+Caso de Teste 03 - Adicionar no carrinho
+    [Documentation]    Adicionar Xbox Series S no carrinho    
+    [Tags]             adicionar_produto
+    Acessar a home page do site Amazon.com.br
+    Digitar o nome de produto "Xbox Series S" no campo de p
+    Clicar no botão de pesquisa
+    Verificar o resultado da pesquisa listando o produto "Xbox Series S"
+    Na página de resultado para "Xbox Series S"
+    Clicar na imagem Xbox Series S
+    Verificar o resultado da pesquisa listando o produto "Console Xbox Series S"
+"
+ 
+    
