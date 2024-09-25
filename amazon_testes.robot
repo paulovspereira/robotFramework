@@ -35,7 +35,6 @@ Caso de Teste 03 - Adicionar no carrinho
     Verificar o resultado da pesquisa listando o produto "Xbox Series S"
     Na página de resultado para "Xbox Series S"
     Clicar na imagem Xbox Series S
-    Verificar o resultado da pesquisa listando o produto "Console Xbox Series S"
-"
+    Clicar no carrinho
  
     

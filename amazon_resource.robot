@@ -54,10 +54,6 @@ Clicar na imagem Xbox Series S
 
 ##Verificar o resultado da pesquisa listando o produto "Voltar aos resultados"
  ##   Wait Until Element Is Visible    locator=(//ul[@class='a-unordered-list a-horizontal a-size-small'][contains(.,'‹ Voltar aos resultados')])
-    
 
-
-
-
-
-
+Clicar no carrinho
+    Click Element    locator=//input[contains(@name,'submit.add-to-cart')]
